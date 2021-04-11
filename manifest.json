@@ -1,0 +1,9 @@
+{
+  "name": "Weather Suggestions",
+  "short_name": "Weather",
+  "start_url": "/TroPwaSpr2021/index.html",
+  "display": "standalone",
+  "prefer_related_applications": false,
+  "background_color": "white",
+  "theme_color": "white"
+}
