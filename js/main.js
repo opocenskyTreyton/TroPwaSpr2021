@@ -1,4 +1,4 @@
-//scriptsW.js
+//main.js
 
 function regSW(){
   if('serviceWorker' in navigator){
