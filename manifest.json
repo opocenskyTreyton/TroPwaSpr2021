@@ -37,7 +37,7 @@
     "type": "image/png",
     "purpose": "any"
   }],
-  "start_url": "/PWA01TRO/index.html",
+  "start_url": "/TroPwaSpr2021/index.html",
   "display": "standalone",
   "prefer_related_applications": false,
   "background_color": "white",
