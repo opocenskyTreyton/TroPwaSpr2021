@@ -1,0 +1,54 @@
+#root{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.group{
+    display: inline-block;
+    text-align: center;
+}
+
+.textBox {
+    border-radius: 25px;
+    border: 5px solid #4CAF50;
+    padding: 20px;
+    width: 200px;
+    height: 15px;
+    font-size: 1.5rem;
+}
+
+.button {
+    background-color: #4CAF50; /* Green */
+    border-radius: 25px;
+    border: none;
+    color: white;
+    padding: 18px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    size: 1rem;
+}
+
+.contentBox{
+    display: inline-block;
+    margin: 1rem;
+}
+
+.chunk{
+    border: 5px solid #4CAF50;
+    border-radius: 25px;
+    margin: 0 auto;
+}
+
+@media screen and (min-width: 600px) {
+    .contentBox{
+        flex: 1 1 calc(50% - 2 rem);
+    }
+}
+
+@media screen and (min-width: 900px) {
+    .contentBox{
+        flex: 1 1 calc(33% - 2 rem);
+    }
+}

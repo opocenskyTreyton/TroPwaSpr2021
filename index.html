@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name"viewport content="width=device-width", initial-scale=1.0 />
+        <title>Opocensky Weather Suggestions</title>
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+        <form id="form" onsubmit="return false;">
+            <div class='group'>
+                <h1>Input Latitude:</h1>
+                <input class='textBox' type="text" placeholder='Input Latitude' id="userInput1" />
+            </div>
+            <div class='group'>
+                <h1>Input Longitude:</h1>
+                <input class='textBox' type="text" placeholder='Input Longitude' id="userInput2" />
+            </div>
+            <input class='group button' type="submit" onclick="inputCords();" />
+        </form>
+
+        <div class='contentBox' id='temp'></div>
+
+        <script src="js/scriptsW.js"></script>
+    </body>
+</html>
