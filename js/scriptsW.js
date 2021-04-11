@@ -1,5 +1,11 @@
 //scriptsW.js
 
+function regSW(){
+  if('serviceWorker' in navigator){
+    navigator.serviceWorker.register('./sw.js');
+  }
+}
+
 function inputCords() {
     var lat = document.getElementById("userInput1").value;
     var lon = document.getElementById("userInput2").value;
